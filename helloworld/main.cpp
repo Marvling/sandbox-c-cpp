@@ -6,7 +6,8 @@ using std::cin;
 using std::cout;
 using std::string;
 
-//short, int, long, long long,
+//char, short, int, long, long long,
+// Read on enums
 
 double power(double base, int exponent)
 {
@@ -33,9 +34,9 @@ int main()
 
     string iplik = "helel";
 
-    // cout << "ne kadar?";
-    // cin >> rakam;
-    // cout << "al sana " << rakam << " tane" << std::endl;
+    cout << "ne kadar?" << std::endl;
+    cin >> rakam;
+    cout << "al sana " << rakam << " tane" << std::endl;
 
     // cout << pow(2, 16) << std::endl;
     // cout << power(16, 2) << std::endl;
